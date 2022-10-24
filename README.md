@@ -7,7 +7,7 @@ template by running
 
 
 ```bash
-nix flake new my-project -t github:dpaetzel/templates
+nix flake new my-project -t github:dpaetzel/templates --refresh
 ```
 
 
@@ -21,7 +21,7 @@ install via a Python venv:
 
 
 ```bash
-nix flake new my-project -t github:dpaetzel/templates#python-venv
+nix flake new my-project -t github:dpaetzel/templates#python-venv --refresh
 ```
 
 
